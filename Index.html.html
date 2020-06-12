@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css"
+href="css/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flowers</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- Favicon -->
+<link rel="icon" href="img/favicon.ico"
+type="image/x-icon">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="shadow-sm rounded">
+      <img class="d-block mx-auto" src="Flowers.png" width="200" draggable="false" alt="Flowers">
+    </div>
+  </header>
+<!-- /Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand mr-5" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <i class="fas fa-home"></i>
+                Home
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">
+                <i class="far fa-address-card"></i>
+                About me
+              </a>
+            </li>
+            <!-- dropdown menu -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-blog"></i>
+                Blog
+              </a>
+              <div class="dropdown-menu" id="custom-dropdown-menu">
+                <a class="dropdown-item" href="post-01.html">Ромашка</a>
+                <a class="dropdown-item" href="post-02.html">Одуванчик</a>
+                <a class="dropdown-item" href="post-03.html">Полынь</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">
+                <i class="fas fa-file-signature"></i>
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- /menu -->
+      </div>
+    </nav>
+    <!-- /Navbar -->
+
+  <!-- MAIN -->
+  <main class="pt-3">
+    <div class="container">
+      <div class="row">
+
+        <!-- POSTS -->
+        <div class="col-md-9">
+          <div class="card flex-md-row mb-4 border-light shadow-sm h-md-250">
+
+            <div class="card-body d-flex flex-column align-items-start">
+
+              <h3 class="card-title mb-0">Ромашка</h3>
+              <p class="card-text mb-auto">
+               Ромашка — это травянистое растение с ветвистым стеблем и многочисленными узенькими листочками. Она теплолюбива, потому прекрасно себя чувствует в южных краях нашей страны. Цветок ромашки состоит из беленьких лепестков и желтой серединки.
+              </p>
+              <a href="#" class="btn-yellow">Read more</a>
+            </div>
+          </div>
+          <div class="card flex-md-row mb-4 border-light shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <h3 class="card-title mb-0">Одуванчик</h3>
+              <p class="card-text mb-auto">
+                Одува́нчик — род многолетних травянистых растений семейства Астровые, или Сложноцветные. Типовой вид рода — Одуванчик лекарственный — хорошо известное растение с розеткой прикорневых листьев и крупными ярко-жёлтыми соцветиями-корзинками из язычковых цветков.
+              </p>
+              <a href="#" class="btn-yellow">Read more</a>
+            </div>
+          </div>
+          <div class="card flex-md-row mb-4 border-light shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+
+              <h3 class="card-title mb-0">Полынь</h3>
+              <p class="card-text mb-auto">
+                Полыни — дву- и многолетние (реже однолетние) травы и полукустарники высотой 3—150 см, с толстым деревянистым корнем. Стебли обыкновенно прямые. Всё растение имеет более или менее густое беловатое или сероватое опушение, часто серебристые или войлочные.
+              </p>
+              <a href="#" class="btn-yellow">Read more</a>
+            </div>
+          </div>
+
+          <!-- /card-group -->
+        </div>
+        <!-- /col-md-9 -->
+
+        <!-- ASIDE -->
+        <div class="col-md-3 mx-auto mb-3 text-center">
+          <div class="blog-sidebar p-2 shadow-sm rounded">
+            <!-- About -->
+            <h2>About me</h2>
+            <img src="https://res.cloudinary.com/dfog0e294/image/upload/v1547038232/webdev/Blog/user.png" class="img-fluid rounded-circle" width="150" alt="Rob Smith">
+            <h4>Kladchenko Liza</h4>
+          </div>
+          Here you can find information about me.
+        </div>
+        <!-- /blog-aside -->
+
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-top">
+    <div class="container">
+      <!-- Logo - Posts - Nav -->
+      <div class="row py-3 text-light">
+
+        </div>
+        <!-- About -->
+        <div class="col-md-4">
+          <h3>About</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Justo nec ultrices dui sapien eget mi proin.
+          </p>
+        </div>
+        <!-- Contact me -->
+        <div class="col-md-4">
+          <h3>Contact me</h3>
+          <p>
+            If you are interested in working with me or just want to say hello simply write on email.
+
+          </p>
+        </div>
+
+      </div>
+      <!-- /row -->
+
+      <!-- Copyright -->
+      <div class="row py-3 d-flex justify-content-center  border-top">
+        <small class="d-block text-light"></small>
+      </div>
+      <html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Navbar</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!-- Font Awesome 5 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+
+        </div>
+        <!-- /menu -->
+      </div>
+    </nav>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+
+    </div>
+    <!-- /container -->
+  </footer>
+
+</body>
+
+</html>
